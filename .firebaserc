@@ -1,0 +1,11 @@
+{
+  "targets": {
+    "tutorials-3f7a6": {
+      "hosting": {
+        "angular-crud-firebase": [
+          "tutorials-3f7a6"
+        ]
+      }
+    }
+  }
+}
