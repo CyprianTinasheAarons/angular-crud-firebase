@@ -10,6 +10,8 @@ import { TutorialsListComponent } from './components/tutorials-list/tutorials-li
 import { AngularFireModule } from '@angular/fire';
 import { AngularFireDatabaseModule } from '@angular/fire/database';
 import { environment } from '../environments/environment';
+import { FormsModule } from '@angular/forms';
+
 
 @NgModule({
   declarations: [
@@ -23,6 +25,7 @@ import { environment } from '../environments/environment';
     AppRoutingModule,
     AngularFireModule.initializeApp(environment.firebase),
     AngularFireDatabaseModule,
+    FormsModule
   ],
   providers: [],
   bootstrap: [AppComponent]
